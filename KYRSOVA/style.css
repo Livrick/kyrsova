@@ -1,0 +1,271 @@
+@media screen and (min-width: 400px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .UP {
+        background: linear-gradient(to bottom, #99ccff, #ffffff);
+        padding: 20px 0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5vw;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-container img {
+        height: 70px;
+    }
+
+    .logo_text {
+        font-size: 24px;
+        margin-left: 15px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .list ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .list ul li {
+        margin-left: 30px;
+    }
+
+    .list ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+
+    .list ul li a:hover {
+        color: #007BFF;
+    }
+
+    .title {
+        text-align: center;
+        padding: 40px 5vw;
+        background: #f5f5f5;
+    }
+
+    .title h2 {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .title h3 {
+        margin: 10px 0;
+        font-size: 24px;
+    }
+
+    .details {
+        margin-top: 10px;
+    }
+
+    .details span {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+
+    .content {
+        padding: 40px 5vw;
+        background: #fff;
+        color: #333;
+    }
+
+    .info {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .info img {
+        max-width: 300px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .info_text p {
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
+
+    .topics {
+        margin-bottom: 40px;
+    }
+
+    .topics h2 {
+        margin-bottom: 20px;
+    }
+
+    .topic_tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .topic_tags span {
+        background: #007BFF;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .contribution {
+        margin-bottom: 40px;
+    }
+
+    .contribution h2 {
+        margin-bottom: 20px;
+    }
+
+    .proceedings {
+        margin-bottom: 40px;
+    }
+
+    .proceedings h2 {
+        margin-bottom: 20px;
+    }
+
+    .dates {
+        margin-bottom: 40px;
+    }
+
+    .dates h2 {
+        margin-bottom: 20px;
+    }
+
+    .dates ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .dates ul li {
+        margin-bottom: 10px;
+    }
+
+    .fees {
+        margin-bottom: 40px;
+    }
+
+    .fees h2 {
+        margin-bottom: 20px;
+    }
+
+    .committee {
+        margin-bottom: 40px;
+    }
+
+    .committee h2 {
+        margin-bottom: 20px;
+    }
+
+    .committee_members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .committee_members .member {
+        flex: 1 1 calc(33.333% - 20px);
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .committee_members .member img {
+        max-width: 100px;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .committee_members .member p {
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .programme_committee {
+        margin-bottom: 40px;
+    }
+
+    .programme_committee h2 {
+        margin-bottom: 20px;
+    }
+
+    .programme_committee ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .programme_committee ul li {
+        margin-bottom: 10px;
+    }
+
+    .organizers {
+        background: #fff;
+        color: #333;
+        padding: 40px 5vw;
+        margin-bottom: 40px;
+    }
+
+    .organizers h2 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .organizer_logos {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .organizer_logos img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .contact {
+        text-align: left;
+    }
+
+    .contact h3 {
+        margin-bottom: 10px;
+    }
+
+    .map {
+        margin-top: 20px;
+    }
+
+    .map img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background: rgb(48, 106, 106);
+    }
+
+    .details {
+        font-size: 1.2rem;
+    }
+}
